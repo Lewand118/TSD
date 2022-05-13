@@ -1,0 +1,33 @@
+.note {
+	display: flex;
+	padding: 10px 15px;
+	background-color: #FFF;
+	border-bottom: 1px solid #DDD;
+}
+
+.note:nth-child(even) {
+	background-color: #EEE;
+}
+
+.note:last-of-type {
+	border-bottom: 0;
+}
+
+.note .id {
+	flex: 1 1 50px;
+}
+
+.note .content {
+	flex: 1 1 100%;
+}
+
+.date {
+    width: auto;
+    padding: 10px 15px;
+    appearance: none;
+    border: yellow;
+    margin-top: 10px;
+	margin-right: 30px;
+    font-size: 10px;
+    outline: auto;
+}
