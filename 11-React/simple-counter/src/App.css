@@ -1,0 +1,31 @@
+.app{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.app .count{
+  margin-bottom: 10px;
+  text-align: center;
+  display: flex;
+  margin-left: 8rem;
+  text-align: center;
+}
+
+.app .count h1{
+  font-size: 5em;
+  margin-top: 35px;
+}
+
+.app .buttons button{
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  font-size: 5em;
+  border: none;
+}
+
+.app .buttons button:hover{
+  font-size: 7em;
+}
